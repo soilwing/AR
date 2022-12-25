@@ -15,12 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "\u30c8\u30e9",
-            "translation" : [
-                0,
-                2.7523739337921143,
-                0.5199999809265137
-            ]
+            "name" : "\u30c8\u30e9"
         }
     ],
     "animations" : [
@@ -28,13 +23,6 @@
             "channels" : [
                 {
                     "sampler" : 0,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
                     "target" : {
                         "node" : 0,
                         "path" : "scale"
@@ -47,11 +35,6 @@
                     "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 5
-                },
-                {
-                    "input" : 4,
-                    "interpolation" : "LINEAR",
-                    "output" : 6
                 }
             ]
         }
@@ -105,13 +88,13 @@
             "count" : 4042,
             "max" : [
                 1.3194074630737305,
-                1.2073593139648438,
-                1.947242259979248
+                3.959733247756958,
+                2.9872422218322754
             ],
             "min" : [
                 -1.3194074630737305,
-                -2.749433994293213,
-                -4.1117658615112305
+                0.002939939498901367,
+                -3.071765899658203
             ],
             "type" : "VEC3"
         },
@@ -147,12 +130,6 @@
         },
         {
             "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 200,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
             "componentType" : 5126,
             "count" : 200,
             "type" : "VEC3"
@@ -192,11 +169,6 @@
             "buffer" : 0,
             "byteLength" : 2400,
             "byteOffset" : 143404
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 2400,
-            "byteOffset" : 145804
         }
     ],
     "samplers" : [
@@ -207,7 +179,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 148204,
+            "byteLength" : 145804,
             "uri" : "tora.bin"
         }
     ]

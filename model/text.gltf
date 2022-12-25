@@ -20,11 +20,6 @@
                 0,
                 0,
                 0
-            ],
-            "translation" : [
-                0,
-                6.071120262145996,
-                0
             ]
         }
     ],
@@ -87,37 +82,37 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "tora",
-            "uri" : "textures/tora.png"
+            "name" : "text",
+            "uri" : "textures/text.png"
         }
     ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 117877,
+            "count" : 121990,
             "max" : [
                 2.2550151348114014,
-                0.03500000014901161,
-                -0.03793434798717499
+                4.001540184020996,
+                0.03500000014901161
             ],
             "min" : [
                 -2.3573498725891113,
-                -0.03500000014901161,
-                -0.9659799337387085
+                3.0734944343566895,
+                -0.03500007092952728
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 117877,
+            "count" : 121990,
             "type" : "VEC2"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 117877,
+            "count" : 121990,
             "type" : "VEC3"
         },
         {
@@ -148,37 +143,37 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 1414524,
+            "byteLength" : 1463880,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 943016,
-            "byteOffset" : 1414524,
+            "byteLength" : 975920,
+            "byteOffset" : 1463880,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 1414524,
-            "byteOffset" : 2357540,
+            "byteLength" : 1463880,
+            "byteOffset" : 2439800,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 2120928,
-            "byteOffset" : 3772064,
+            "byteOffset" : 3903680,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 800,
-            "byteOffset" : 5892992
+            "byteOffset" : 6024608
         },
         {
             "buffer" : 0,
             "byteLength" : 2400,
-            "byteOffset" : 5893792
+            "byteOffset" : 6025408
         }
     ],
     "samplers" : [
@@ -189,7 +184,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 5896192,
+            "byteLength" : 6027808,
             "uri" : "text.bin"
         }
     ]
