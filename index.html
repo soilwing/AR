@@ -7,12 +7,12 @@
 <body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs vr-mode-ui"enabled: false">
     <a-assets>
-      <a-asset-item id="usagi" src="./model/usagi.glb">
+      <a-asset-item id="usagi" src="./model/usagi.gltf">
       </a-asset-item>
     </a-assets>
     <a-marker preset="hiro">
       <a-entity
-      scale="0.05 0.05 0.05"
+      scale="1 1 1"
       position="0 0 0"
       gltf-model="#usagi" animation-mixer
       ></a-entity>
