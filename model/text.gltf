@@ -20,6 +20,11 @@
                 0,
                 0,
                 0
+            ],
+            "translation" : [
+                0,
+                1.4499999284744263,
+                0
             ]
         }
     ],
@@ -32,6 +37,13 @@
                         "node" : 0,
                         "path" : "scale"
                     }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
                 }
             ],
             "name" : "\u30c6\u30ad\u30b9\u30c8Action",
@@ -40,6 +52,11 @@
                     "input" : 4,
                     "interpolation" : "LINEAR",
                     "output" : 5
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "STEP",
+                    "output" : 6
                 }
             ]
         }
@@ -92,14 +109,14 @@
             "componentType" : 5126,
             "count" : 121990,
             "max" : [
-                2.2550151348114014,
-                4.001540184020996,
-                0.03500000014901161
+                4.510030269622803,
+                8.003080368041992,
+                0.07000000029802322
             ],
             "min" : [
-                -2.3573498725891113,
-                3.0734944343566895,
-                -0.03500007092952728
+                -4.714699745178223,
+                6.146988868713379,
+                -0.07000014185905457
             ],
             "type" : "VEC3"
         },
@@ -124,9 +141,9 @@
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 200,
+            "count" : 300,
             "max" : [
-                8.333333333333334
+                12.5
             ],
             "min" : [
                 0.041666666666666664
@@ -136,7 +153,13 @@
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 200,
+            "count" : 300,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 300,
             "type" : "VEC3"
         }
     ],
@@ -167,13 +190,18 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 800,
+            "byteLength" : 1200,
             "byteOffset" : 6024608
         },
         {
             "buffer" : 0,
-            "byteLength" : 2400,
-            "byteOffset" : 6025408
+            "byteLength" : 3600,
+            "byteOffset" : 6025808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 6029408
         }
     ],
     "samplers" : [
@@ -184,7 +212,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 6027808,
+            "byteLength" : 6033008,
             "uri" : "text.bin"
         }
     ]
