@@ -61,6 +61,9 @@
             "doubleSided" : true,
             "name" : "\u30de\u30c6\u30ea\u30a2\u30eb.002",
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
@@ -80,6 +83,19 @@
                     "material" : 0
                 }
             ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "tora",
+            "uri" : "textures/tora.png"
         }
     ],
     "accessors" : [
@@ -181,6 +197,12 @@
             "buffer" : 0,
             "byteLength" : 2400,
             "byteOffset" : 145804
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
         }
     ],
     "buffers" : [
