@@ -9,12 +9,15 @@
     <a-assets>
       <a-asset-item id="usagi" src="./model/usagi.gltf">
       </a-asset-item>
+      <a-asset-item id="scene" src="./model/scene.gltf">
+      </a-asset-item>
     </a-assets>
     <a-marker preset="hiro">
       <a-entity
       scale="0.3 0.3 0.3"
       position="0 0 0"
-      gltf-model="#usagi" animation-mixer="duration: 60"
+      gltf-model="#scene"
+      gltf-model="#usagi" animation-mixer
       ></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
