@@ -85,7 +85,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 4042,
+            "count" : 1520,
             "max" : [
                 1.3194074630737305,
                 3.959733247756958,
@@ -101,13 +101,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 4042,
+            "count" : 1520,
             "type" : "VEC2"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 4042,
+            "count" : 1520,
             "type" : "VEC3"
         },
         {
@@ -138,37 +138,37 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 48504,
+            "byteLength" : 18240,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 32336,
-            "byteOffset" : 48504,
+            "byteLength" : 12160,
+            "byteOffset" : 18240,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 48504,
-            "byteOffset" : 80840,
+            "byteLength" : 18240,
+            "byteOffset" : 30400,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 13260,
-            "byteOffset" : 129344,
+            "byteOffset" : 48640,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 1200,
-            "byteOffset" : 142604
+            "byteOffset" : 61900
         },
         {
             "buffer" : 0,
             "byteLength" : 3600,
-            "byteOffset" : 143804
+            "byteOffset" : 63100
         }
     ],
     "samplers" : [
@@ -179,7 +179,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 147404,
+            "byteLength" : 66700,
             "uri" : "tora.bin"
         }
     ]

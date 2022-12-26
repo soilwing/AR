@@ -108,14 +108,14 @@
         {
             "bufferView" : 0,
             "componentType" : 5123,
-            "count" : 71393,
+            "count" : 22731,
             "normalized" : true,
             "type" : "VEC4"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 71393,
+            "count" : 22731,
             "max" : [
                 0.5858787298202515,
                 2.3410165309906006,
@@ -131,18 +131,18 @@
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 71393,
+            "count" : 22731,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 71393,
+            "count" : 22731,
             "type" : "VEC3"
         },
         {
             "bufferView" : 4,
-            "componentType" : 5125,
+            "componentType" : 5123,
             "count" : 107100,
             "type" : "SCALAR"
         },
@@ -174,48 +174,48 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 571144,
+            "byteLength" : 181848,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 856716,
-            "byteOffset" : 571144,
+            "byteLength" : 272772,
+            "byteOffset" : 181848,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 571144,
-            "byteOffset" : 1427860,
+            "byteLength" : 181848,
+            "byteOffset" : 454620,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 856716,
-            "byteOffset" : 1999004,
+            "byteLength" : 272772,
+            "byteOffset" : 636468,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 428400,
-            "byteOffset" : 2855720,
+            "byteLength" : 214200,
+            "byteOffset" : 909240,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 1200,
-            "byteOffset" : 3284120
+            "byteOffset" : 1123440
         },
         {
             "buffer" : 0,
             "byteLength" : 3600,
-            "byteOffset" : 3285320
+            "byteOffset" : 1124640
         },
         {
             "buffer" : 0,
             "byteLength" : 4800,
-            "byteOffset" : 3288920
+            "byteOffset" : 1128240
         }
     ],
     "samplers" : [
@@ -226,7 +226,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 3293720,
+            "byteLength" : 1133040,
             "uri" : "usagi.bin"
         }
     ]
