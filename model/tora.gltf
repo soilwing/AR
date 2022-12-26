@@ -85,35 +85,35 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1520,
+            "count" : 1271,
             "max" : [
-                1.3194074630737305,
-                3.959733247756958,
-                2.9872422218322754
+                1.3096522092819214,
+                3.9801392555236816,
+                3.0164942741394043
             ],
             "min" : [
-                -1.3194074630737305,
-                0.002939939498901367,
-                -3.071765899658203
+                -1.3096522092819214,
+                0.004784800577908754,
+                -3.1018457412719727
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1520,
+            "count" : 1271,
             "type" : "VEC2"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1520,
+            "count" : 1271,
             "type" : "VEC3"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 6630,
+            "count" : 4626,
             "type" : "SCALAR"
         },
         {
@@ -138,37 +138,37 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 18240,
+            "byteLength" : 15252,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 12160,
-            "byteOffset" : 18240,
+            "byteLength" : 10168,
+            "byteOffset" : 15252,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 18240,
-            "byteOffset" : 30400,
+            "byteLength" : 15252,
+            "byteOffset" : 25420,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 13260,
-            "byteOffset" : 48640,
+            "byteLength" : 9252,
+            "byteOffset" : 40672,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 1200,
-            "byteOffset" : 61900
+            "byteOffset" : 49924
         },
         {
             "buffer" : 0,
             "byteLength" : 3600,
-            "byteOffset" : 63100
+            "byteOffset" : 51124
         }
     ],
     "samplers" : [
@@ -179,7 +179,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 66700,
+            "byteLength" : 54724,
             "uri" : "tora.bin"
         }
     ]
